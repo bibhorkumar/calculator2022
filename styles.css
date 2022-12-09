@@ -5,45 +5,55 @@ body{
 }
 
 .container{
-    background-color: aquamarine;
+    background-color: #3e4040;
     margin: 100px auto;
     width: 350px;
     padding: 16px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 64px;
-    gap: 8px;
+    gap: 16px;
     border-radius: 12px;
 
 }
 
 .display{
-    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #585757f2;
+    color: white;
     grid-column: 1/5;
     padding: 16px;
     border-radius: 8px;
     text-align: end;
+    grid-row: 1/3;
     font-size: 24px;
 }
 
 .btn{
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: bold;
     padding: 16px 8px;
     border-radius: 8px;
     cursor: pointer;
+    background-color: #585757f2;
+    color: white;
 }
 
 .btn:hover{
-    background-color: rgb(90, 172, 145);
+    background-color: rgb(148, 150, 149);
 }
 
 #equal-btn{
     grid-column: span 2;
-    background-color: rgb(43, 126, 97);
     color: whitesmoke;
     font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.658);
 }
 
 #equal-btn:hover{
-    background-color: rgb(90, 172, 145);
+    background-color: rgb(148, 150, 149);
 }
+
+
